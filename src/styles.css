@@ -11,3 +11,11 @@
 .label{
     @apply bg-white font-black text-sm px-20 py-2 top-0 ml-6 mt-80 absolute;
 }
+
+.price{
+    @apply flex justify-center px-4 py-2 font-bold;
+}
+
+.prodlink{
+    @apply tracking-wider hover:border-b-4 border-b-primary;
+}
