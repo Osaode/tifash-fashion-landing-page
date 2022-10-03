@@ -635,6 +635,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .mt-1{
   margin-top: 0.25rem;
 }
@@ -1055,7 +1059,7 @@ video {
 }
 
 .swiper {
-  width: 700px;
+  width: 1300px;
   height: 400px;
 }
 
