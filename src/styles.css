@@ -13,9 +13,14 @@
 }
 
 .price{
-    @apply flex justify-center px-4 py-2 font-bold;
+    @apply flex justify-center px-4 py-2 font-bold bg-white text-primary;
 }
 
 .prodlink{
     @apply tracking-wider hover:border-b-4 border-b-primary;
 }
+
+.swiper {
+    width: 600px;
+    height: 400px;
+  }

@@ -3,9 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tifash</title>
     
     <link rel="stylesheet" href="styles.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <title>Tifash</title>
 </head>
 <body class="text-primary font-['Lato']">
     <div><!--content wrapper-->
@@ -151,8 +154,68 @@
                 </div><!--best fashion 2015 end-->
             </div><!--section 1 end-->
             <!-- slideshow -->
-            <div style="background-image: url('./img/BG\ \(1\).png');" class="w-full h-full bg-no-repeat bg-cover">
-                <span>we outchea</span>
+            <div style="background-image: url('./img/BG\ \(1\).png');" class="w-full h-full bg-no-repeat bg-cover text-white px-32 pt-28 flex justify-between">
+                <div class="w-2/5 pt-4">
+                    <div class="font-body font-bold text-5xl pr-36 tracking-wide text-left">
+                        <h2>Best Seller Product</h2>
+                    </div>
+                    <div class="text-base pr-36 mt-8">
+                        <span>These Are Currently Our Best Seller Products. You Can Have A Look At It And Start Shopping.</span>
+                    </div>
+                    <div class="mt-16">
+                        <a class="border-white border-2 py-4 px-8 bg-red-400 cursor-pointer" href="#">
+                            <span>SEE MORE</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper w-3/5">
+                    <div class="swiper-wrapper flex">
+                        <div class="swiper-slide card">
+                            <img src="./img/Image(6).png" alt="sweater">
+                            <div>
+                                <div class="flex justify-center p-4 bg-white">
+                                <img class="w-24" src="./img/five-star.png" alt="">
+                                </div>
+                                <div class="price">
+                                    <span>Casual Long Sleeve</span>
+                                </div>
+                                <div class="price">
+                                    <span><del class="text-red-200">$220</del> $140</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <img src="./img/Image(6).png" alt="sweater">
+                            <div>
+                                <div class="flex justify-center p-4 bg-white">
+                                <img class="w-24" src="./img/five-star.png" alt="">
+                                </div>
+                                <div class="price">
+                                    <span>Casual Long Sleeve</span>
+                                </div>
+                                <div class="price">
+                                    <span><del class="text-red-200">$220</del> $140</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <img src="./img/Image(6).png" alt="sweater">
+                            <div>
+                                <div class="flex justify-center p-4 bg-white">
+                                <img class="w-24" src="./img/five-star.png" alt="">
+                                </div>
+                                <div class="price">
+                                    <span>Casual Long Sleeve</span>
+                                </div>
+                                <div class="price">
+                                    <span><del class="text-red-200">$220</del> $140</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
             <!-- slideshow end -->
 
@@ -409,5 +472,37 @@
             </div>
         </footer>
     </div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
 </body>
 </html>
