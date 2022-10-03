@@ -627,6 +627,18 @@ video {
   margin-top: 1rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .mt-48{
   margin-top: 12rem;
 }
@@ -930,6 +942,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-black{
   font-weight: 900;
 }
@@ -1040,4 +1057,14 @@ video {
 .swiper {
   width: 700px;
   height: 400px;
+}
+
+.reviews{
+  height: 24rem;
+  width: 40%;
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 221 204 / var(--tw-bg-opacity));
+  padding: 2.5rem;
+  text-align: center;
 }

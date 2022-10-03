@@ -24,3 +24,7 @@
     width: 700px;
     height: 400px;
   }
+
+.reviews {
+    @apply p-10 bg-reviews text-center rounded-md w-2/5 h-96;
+}
